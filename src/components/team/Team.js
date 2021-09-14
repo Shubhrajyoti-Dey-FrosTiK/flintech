@@ -8,7 +8,7 @@ export default function Team() {
         AOS.init()
     })
     return (
-        <div data-aos="fadeIn" className="Team">
+        <div data-aos="fadeIn" className="Team" id="TeamID">
         <div style={{marginBottom:"30px"}}>
             <h1><b>Team</b></h1>
         </div>

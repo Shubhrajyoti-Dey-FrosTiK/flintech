@@ -10,7 +10,7 @@ export default function BackedBy() {
         AOS.init()
     })
     return (
-        <div className="BackedBy">
+        <div className="BackedBy" id="BackedByID">
             <div>
                 <h1 style={{"fontWeight":"600",marginBottom:"25px"}}>
                 <MovingText

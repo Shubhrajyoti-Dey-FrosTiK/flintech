@@ -9,7 +9,7 @@ export default function CTA() {
         AOS.init()
     })
     return (
-        <div className="CTAContainer">
+        <div id="CTAID" className="CTAContainer">
             {/* <img src={img1} className="CTAImg"/> */}
             <div data-aos="fade-up" className="CTA">
             <div>

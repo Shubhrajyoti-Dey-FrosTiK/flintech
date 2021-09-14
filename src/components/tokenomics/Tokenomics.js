@@ -10,7 +10,7 @@ export default function Tokenomics() {
 
     return (
         <>
-        <div data-aos="fadeIn" className="Tokenomics">
+        <div data-aos="fadeIn" className="Tokenomics" id="TokenomicsID">
             <h1 style={{marginTop:"20px",marginBottom:"30px",fontWeight:"600",paddingTop:"30px"}}>Tokenomics</h1>
             <div className="TokenomicsContent">
                 <div id="TokenomicsTemp" style={{display:"flex",justifyContent:"center"}}>

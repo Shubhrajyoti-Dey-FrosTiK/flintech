@@ -11,7 +11,7 @@ export default function FeaturedIn() {
         AOS.init()
     })
     return (
-        <div data-aos="fade-in" className="FeaturedIn">
+        <div data-aos="fade-in" className="FeaturedIn" id="FeaturedInID">
             <div>
                 <h1 style={{"fontWeight":"600"}}>
                 <MovingText
