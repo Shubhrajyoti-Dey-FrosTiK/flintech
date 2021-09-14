@@ -1,0 +1,21 @@
+.FAQ{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+    margin-top: 30px;
+}
+
+@media only screen and (min-width: 1024px){
+    .FAQContents{
+        display: grid;
+        grid-template-columns: 5fr 5fr;
+        column-gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .FAQContents{
+        display: flex;
+        flex-direction: column;
+    }
+}
