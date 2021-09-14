@@ -14,7 +14,7 @@ export default function Features() {
         AOS.init()
     })
     return (
-        <div data-aos="fade-in" className="Features">
+        <div data-aos="fade-in" className="Features" id="FeaturesID">
             <div>
                 <h1 style={{"fontWeight":"600","marginBottom":"30px"}}>
                 <MovingText

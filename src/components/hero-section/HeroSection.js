@@ -9,7 +9,7 @@ export default function HeroSection() {
         AOS.init()
     })
     return (
-        <div data-aos="fade-in" style={{"backgroundColor":"black","color":"white","height":"80%","borderBottomLeftRadius":"20px","borderBottomRightRadius":"20px"}}>
+        <div data-aos="fade-in" style={{"backgroundColor":"black","color":"white","height":"80%","borderBottomLeftRadius":"20px","borderBottomRightRadius":"20px"}} id="HeroID">
             <div data-aos="fade-in" className="Hero">
                 <h1 id="HeroHeading">
                     <MovingText

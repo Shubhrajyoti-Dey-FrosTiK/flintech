@@ -2,22 +2,24 @@
 .Hero{
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 25%;
-    padding-bottom: 25%;
-    position: sticky;
-    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 150px;
+    position: -webkit-sticky;
+    /* text-align: center; */
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
-#HeroHeading{
-   
+@media only screen and (max-width:1024px){
+    .Hero{
+
+    }
 }
 
 #HeroSubHeading{
     font-size: large;
-    margin-left: 5%;
+    /* margin-left: 5%; */
     margin-right: 5%;
     margin-top: 2%;
     margin-bottom: 0px;
