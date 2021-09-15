@@ -39,6 +39,11 @@ export default function FeaturedIn() {
                 <div className="FeaturedList">
                 <div><img src={img1} className="FeatureImg" alt=""/></div>
                 <div><img src={img2} className="FeatureImg" alt=""/></div>
+                <div><img src={img2} className="FeatureImg" alt=""/></div>
+                <div><img src={img2} className="FeatureImg" alt=""/></div>
+                <div><img src={img2} className="FeatureImg" alt=""/></div>
+                <div><img src={img2} className="FeatureImg" alt=""/></div>
+                <div><img src={img2} className="FeatureImg" alt=""/></div>
                 </div>
             </MovingText>
             </div>
