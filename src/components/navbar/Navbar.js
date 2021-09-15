@@ -1,5 +1,5 @@
 import React,{ useEffect } from 'react'
-import { Navbar,Button,Nav,Form,FormControl,NavDropdown,NavItem } from 'react-bootstrap'
+import { Navbar,Button,Nav } from 'react-bootstrap'
 import Headroom from "headroom.js";
 import './Navbar.css'
 export default function CNavbar() {
@@ -13,7 +13,6 @@ export default function CNavbar() {
 
         // for the navbar transperancy 
         // window.scroll(()=>{
-            console.log("Scroll")
             window.onscroll = () =>{
                 let tempNav=document.getElementsByClassName("ProjectNav")
                 let tempNavButton1=document.getElementsByClassName("NavButton1")
@@ -66,9 +65,6 @@ export default function CNavbar() {
         tempNavButton2[1].classList.remove("btn-light")
         tempNavButton2[1].classList.add("btn-dark")
     }
-    const brand = {
-        color: "white",
-      };
     return (
     <>
         <Navbar id="MobileNav" className=" ProjectNav transperant-color-nav navbar-dark" expand="xxl" collapseOnSelect fixed="top" style={{justifyContent:"center"}}>
