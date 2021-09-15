@@ -45,7 +45,7 @@ export default function Roadmap() {
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                 <TimelineDot color="black">
-                    <div style={{height:"30px",width:"30px",borderRadius:"50%",backgroundColor:"#f7c114"}}></div>
+                    <div className="RoadmapDot"></div>
                 </TimelineDot>
                 <TimelineConnector/>
                 </TimelineSeparator>
@@ -69,7 +69,7 @@ export default function Roadmap() {
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                 <TimelineDot color="black">
-                <div style={{height:"30px",width:"30px",borderRadius:"50%",backgroundColor:"#f7c114"}}></div>
+                <div className="RoadmapDot"></div>
                 </TimelineDot>
                 <TimelineConnector />
                 </TimelineSeparator>
@@ -92,7 +92,7 @@ export default function Roadmap() {
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                 <TimelineDot color="black">
-                <div style={{height:"30px",width:"30px",borderRadius:"50%",backgroundColor:"#f7c114"}}></div>
+                <div className="RoadmapDot"></div>
                 </TimelineDot>
                 <TimelineConnector />
                 </TimelineSeparator>
@@ -117,7 +117,7 @@ export default function Roadmap() {
             <TimelineItem>
                 <TimelineSeparator>
                 <TimelineDot color="black">
-                    <div style={{height:"30px",width:"30px",borderRadius:"50%",backgroundColor:"#f7c114"}}></div>
+                    <div className="RoadmapDot"></div>
                 </TimelineDot>
                 <TimelineConnector/>
                 </TimelineSeparator>
@@ -139,7 +139,7 @@ export default function Roadmap() {
             <TimelineItem>
                 <TimelineSeparator>
                 <TimelineDot color="black">
-                <div style={{height:"30px",width:"30px",borderRadius:"50%",backgroundColor:"#f7c114"}}></div>
+                <div className="RoadmapDot"></div>
                 </TimelineDot>
                 <TimelineConnector />
                 </TimelineSeparator>
@@ -160,7 +160,7 @@ export default function Roadmap() {
             <TimelineItem>
                 <TimelineSeparator>
                 <TimelineDot color="black">
-                <div style={{height:"30px",width:"30px",borderRadius:"50%",backgroundColor:"#f7c114"}}></div>
+                <div className="RoadmapDot"></div>
                 </TimelineDot>
                 <TimelineConnector />
                 </TimelineSeparator>

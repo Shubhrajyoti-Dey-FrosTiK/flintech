@@ -13,7 +13,8 @@
 
 #CTAButton{
     margin-top: 15px;
-    background-color:#f7c114;
+    /* background-color:#f7c114; */
+    background-color: #f7c114;
     width:200px;
     padding-top:10px;
     border-radius: 15px;

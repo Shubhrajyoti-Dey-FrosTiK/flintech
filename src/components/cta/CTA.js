@@ -37,7 +37,7 @@ export default function CTA() {
                     iteration="1"
                     fillMode="none">
                 <div style={{display:"flex",justifyContent:"center"}}>
-                <div id="CTAButton"><p>Fund Top Movies</p></div>
+                <div id="CTAButton"><p style={{color:"white"}}>Fund Top Movies</p></div>
                 </div>
             </MovingText>
         </div>
