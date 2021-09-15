@@ -10,20 +10,76 @@ export default function CNavbar() {
         myElement = document.getElementsByClassName("ProjectNav")[1];
         headroom  = new Headroom(myElement);
         headroom.init();
+
+        // for the navbar transperancy 
+        // window.scroll(()=>{
+            console.log("Scroll")
+            window.onscroll = () =>{
+                console.log("Scrolling")
+                let tempNav=document.getElementsByClassName("ProjectNav")
+                let tempNavButton1=document.getElementsByClassName("NavButton1")
+                let tempNavButton2=document.getElementsByClassName("NavButton2")
+                if(window.pageYOffset>50){
+                    tempNav[0].classList.remove("navbar-dark")
+                    tempNav[0].classList.add("opaque-color-nav")
+                    tempNav[1].classList.remove("navbar-dark")
+                    tempNav[1].classList.add("opaque-color-nav")
+                    tempNavButton1[0].classList.remove("btn-outline-light")
+                    tempNavButton1[0].classList.add("btn-outline-dark")
+                    tempNavButton2[0].classList.remove("btn-light")
+                    tempNavButton2[0].classList.add("btn-dark")
+                    tempNavButton1[1].classList.remove("btn-outline-light")
+                    tempNavButton1[1].classList.add("btn-outline-dark")
+                    tempNavButton2[1].classList.remove("btn-light")
+                    tempNavButton2[1].classList.add("btn-dark")
+                }
+                else{
+                    tempNav[0].classList.remove("opaque-color-nav")
+                    tempNav[0].classList.add("navbar-dark")
+                    tempNav[1].classList.add("navbar-dark")
+                    tempNav[1].classList.remove("opaque-color-nav")
+                    tempNavButton1[0].classList.add("btn-outline-light")
+                    tempNavButton1[0].classList.remove("btn-outline-dark")
+                    tempNavButton1[1].classList.add("btn-outline-light")
+                    tempNavButton1[1].classList.remove("btn-outline-dark")
+                    tempNavButton2[0].classList.remove("btn-dark")
+                    tempNavButton2[0].classList.add("btn-light")
+                    tempNavButton2[1].classList.remove("btn-dark")
+                    tempNavButton2[1].classList.add("btn-light")
+                }
+            }
     })
+
+    function TransperancyHandler(){
+        let tempNav=document.getElementsByClassName("ProjectNav")
+        let tempNavButton1=document.getElementsByClassName("NavButton1")
+        let tempNavButton2=document.getElementsByClassName("NavButton2")
+        tempNav[0].classList.remove("navbar-dark")
+        tempNav[0].classList.add("opaque-color-nav")
+        tempNav[1].classList.remove("navbar-dark")
+        tempNav[1].classList.add("opaque-color-nav")
+        tempNavButton1[0].classList.remove("btn-outline-light")
+        tempNavButton1[0].classList.add("btn-outline-dark")
+        tempNavButton2[0].classList.remove("btn-light")
+        tempNavButton2[0].classList.add("btn-dark")
+        tempNavButton1[1].classList.remove("btn-outline-light")
+        tempNavButton1[1].classList.add("btn-outline-dark")
+        tempNavButton2[1].classList.remove("btn-light")
+        tempNavButton2[1].classList.add("btn-dark")
+    }
     const brand = {
         color: "white",
       };
     return (
     <>
-        <Navbar id="MobileNav" className=" ProjectNav color-nav " expand="xxl" collapseOnSelect fixed="top" style={{justifyContent:"center"}}>
+        <Navbar id="MobileNav" className=" ProjectNav transperant-color-nav navbar-dark" expand="xxl" collapseOnSelect fixed="top" style={{justifyContent:"center"}}>
             <div style={{"paddingLeft":"15px"}}>
                 <Navbar.Brand href="#">
                         NFTFLIXPRO
                 </Navbar.Brand>
             </div>
             <div>
-                <Navbar.Toggle/>
+                <Navbar.Toggle onClick={TransperancyHandler}/>
             </div>
                 {/* <div> */}
                 <Navbar.Collapse>
@@ -38,16 +94,16 @@ export default function CNavbar() {
                         <Nav.Link href="/#TeamID" style={{marginTop:"7px",marginLeft:"10px"}}>Team</Nav.Link>
                         <Nav.Link href="/#FAQID" style={{marginTop:"7px",marginLeft:"10px"}}>FAQs</Nav.Link>
                         <Nav.Link href="*" style={{marginLeft:"10px"}}>
-                        <Button variant="outline-dark">Download White Paper</Button>                           
+                        <Button variant="outline-light" className="NavButton1">Download White Paper</Button>                           
                         </Nav.Link>
                         <Nav.Link href="/#CTAID" style={{marginLeft:"10px"}}>
-                        <Button variant="dark">Fund Top Movies</Button>                           
+                        <Button variant="light" className="NavButton2">Fund Top Movies</Button>                           
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
         </Navbar>
 
-        <Navbar id="DesktopNav" className="ProjectNav color-nav" expand="lg" collapseOnSelect fixed="top" style={{flexDirection:"column",justifyContent:"center"}}>
+        <Navbar id="DesktopNav" className="ProjectNav transperant-color-nav navbar-dark" expand="lg" collapseOnSelect fixed="top" style={{flexDirection:"column",justifyContent:"center"}}>
             <div style={{display:"flex",minWidth:"1200", maxWidth:"1200"}}>
             <div style={{"paddingLeft":"15px","paddingTop":"12px",paddingRight:"2px"}}>
                 <Navbar.Brand href="#">NFTFLIXPRO</Navbar.Brand>
@@ -63,10 +119,10 @@ export default function CNavbar() {
                         <Nav.Link href="/#TeamID" className="NavContent">Team</Nav.Link>
                         <Nav.Link href="/#FAQID" className="NavContent">FAQs</Nav.Link>
                         <Nav.Link href="*" style={{marginLeft:"-5px"}}>
-                        <Button variant="outline-dark">WhitePaper</Button>                           
+                        <Button variant="outline-light" className="NavButton1">WhitePaper</Button>                           
                         </Nav.Link>
                         <Nav.Link href="/#CTAID" style={{marginLeft:"-12px"}}>
-                        <Button variant="dark">Fund Top Movies</Button>                           
+                        <Button variant="light" className="NavButton2">Fund Top Movies</Button>                           
                         </Nav.Link>
                     </Nav>
                 </div>

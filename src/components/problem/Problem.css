@@ -1,13 +1,12 @@
 .Problem{
-    margin-bottom: 10%;
-    margin-top: 50px;
-    margin-left: 5%;
+    margin-bottom: 30px;
+    margin-top: 45px;
     background-color: black;
     color:white ;
-    padding-left: 5%;
-    padding-top: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -16,15 +15,14 @@
 .Solution{
     background-color: #f7c114 !important;
     color: black !important;
-    margin-bottom: 10%;
-    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-top: 45px;
     background-color: black;
     color:white ;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-right: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 15px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;  
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -37,7 +35,6 @@
 
 @media only screen and (max-width: 1024px) {
     .Problem{
-        margin-right: 5%;
         margin-bottom: 0px;
         border-top-right-radius: 20px;
         border-bottom-left-radius: 0px;
@@ -50,7 +47,6 @@
 
     .Solution{
         margin-top: 0%;
-        margin-left: 5%;
         border-top-right-radius: 0%;
         border-bottom-left-radius: 20px;
     }

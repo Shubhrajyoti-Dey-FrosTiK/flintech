@@ -1,7 +1,15 @@
-.color-nav{
-  background-color: #f7c114 !important;
-  color: black !important;
+.transperant-color-nav{
+  /* background-color: #f7c114; */
+  background-color: rgba(54, 25, 25, .00000);
+  /* color: white !important; */
 }
+
+.opaque-color-nav{
+  background-color: #f7c114;
+  /* background-color: rgba(54, 25, 25, .00000); */
+  /* color: white !important; */
+}
+
 
 .headroom {
   will-change: transform;
@@ -67,4 +75,9 @@
   #DesktopNav{
     display: visible;
   }
+}
+
+.Transperant{
+  opacity: 0;
+  color: black;
 }
