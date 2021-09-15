@@ -16,6 +16,7 @@ export default function Features() {
     return (
         <div data-aos="fade-in" className="Features" id="FeaturesID">
             <div>
+            <div>
                 <h1 style={{"fontWeight":"600","marginBottom":"30px"}}>
                 <MovingText
                     type="fadeIn"
@@ -39,7 +40,7 @@ export default function Features() {
                     fillMode="none">
                 <div className="FeaturesList">
                     <div data-aos="fade-in" className="col d-flex justify-content-center ">
-                        <Card style={{ width: '18rem' }} className="FeatureContent">
+                        <Card style={{ width: '18rem',paddingLeft:"15px",paddingRight:"15px",marginTop:"15px" }} className="FeatureContent">
                             <Card.Img variant="top" src={img1} />
                             <Card.Body>
                                 <Card.Title>Auto Staking</Card.Title>
@@ -50,7 +51,7 @@ export default function Features() {
                         </Card>
                     </div>
                     <div data-aos="fade-in" className="col d-flex justify-content-center ">
-                        <Card style={{ width: '18rem' }} className="FeatureContent">
+                        <Card style={{ width: '18rem',paddingLeft:"15px",paddingRight:"15px",marginTop:"15px" }} className="FeatureContent">
                             <Card.Img variant="top" src={img2} />   
                             <Card.Body>
                                 <Card.Title>Deflationary</Card.Title>
@@ -61,7 +62,7 @@ export default function Features() {
                         </Card>
                     </div>
                     <div data-aos="fade-in" className="col d-flex justify-content-center">
-                        <Card style={{ width: '18rem' }} className="FeatureContent">
+                        <Card style={{ width: '18rem',paddingLeft:"15px",paddingRight:"15px",marginTop:"15px" }} className="FeatureContent">
                             <Card.Body>
                                 <Card.Img variant="top" src={img3} />
                                 <Card.Title>Earn Royalties</Card.Title>
@@ -72,7 +73,7 @@ export default function Features() {
                         </Card>
                     </div>
                     <div data-aos="fade-in" className="col d-flex justify-content-center">
-                        <Card style={{ width: '18rem' }} className="FeatureContent">
+                        <Card style={{ width: '18rem',paddingLeft:"15px",paddingRight:"15px",marginTop:"15px" }} className="FeatureContent">
                             <Card.Body>
                             <Card.Img variant="top" src={img4} />
                                 <Card.Title>Film Launchpad</Card.Title>
@@ -84,6 +85,7 @@ export default function Features() {
                     </div>
                 </div>
             </MovingText>
+            </div>
         </div>
     )
 }

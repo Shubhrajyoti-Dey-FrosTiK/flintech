@@ -9,6 +9,7 @@ export default function Problem() {
         AOS.init()
     })
     return (
+        <div style={{display:"block",margin:"auto",maxWidth:"1100px"}}>
         <div className="Arranger" data-aos="fadeIn">
              <div data-aos="fade-up" className="Problem">
                 <div>
@@ -77,6 +78,7 @@ export default function Problem() {
                     </div>
                 </MovingText>
             </div>
+        </div>
         </div>
     )
 }
