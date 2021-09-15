@@ -1,41 +1,42 @@
 .Team{
     text-align: center;
-    margin-left: 5%;
+    /* margin-left: 5%;
     margin-right: 5%;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px; */
     background-color: black;
     color: white;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
     border-radius: 20px;
 }
 
 .TeamMembers{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    flex-wrap:wrap ;
+    margin-bottom: 15px;
+    margin-top: 15px;
     text-align: center;
 }
 
 .TeamDetails{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 15px;
     padding-top: 15px;
     padding-bottom: 5px;
 }
 
 @media only screen and (max-width: 1024px){
-    .TeamMembers{
+    /* .TeamMembers{
         flex-direction:column;
-    }
+    } */
 
-    .TeamDetails{
+    /* .TeamDetails{
         margin-left: 10px;
         margin-right: 10px;
-    }
+    } */
 }

@@ -15,7 +15,6 @@ export default function CNavbar() {
         // window.scroll(()=>{
             console.log("Scroll")
             window.onscroll = () =>{
-                console.log("Scrolling")
                 let tempNav=document.getElementsByClassName("ProjectNav")
                 let tempNavButton1=document.getElementsByClassName("NavButton1")
                 let tempNavButton2=document.getElementsByClassName("NavButton2")
@@ -87,9 +86,9 @@ export default function CNavbar() {
                         <Nav.Link href="/#FeaturedInID" style={{marginTop:"7px",marginLeft:"10px"}}>Featured In</Nav.Link>
                         <Nav.Link href="/#BackedByID" style={{marginTop:"7px",marginLeft:"10px"}}>Backed By</Nav.Link>
                         <Nav.Link href="/#FeaturesID" style={{marginTop:"7px",marginLeft:"10px"}}>Features</Nav.Link>
-                        <Nav.Link href="/#TokenomicsID" style={{marginTop:"7px",marginLeft:"10px"}}>Tokenomics</Nav.Link>
-                        <Nav.Link href="/#TokenomicsID" style={{marginTop:"7px",marginLeft:"10px"}}>Problem</Nav.Link>
-                        <Nav.Link href="/#TokenomicsID" style={{marginTop:"7px",marginLeft:"10px"}}>Solution</Nav.Link>
+                        <Nav.Link href="/#TokenID" style={{marginTop:"7px",marginLeft:"10px"}}>Tokenomics</Nav.Link>
+                        <Nav.Link href="/#ProblemID" style={{marginTop:"7px",marginLeft:"10px"}}>Problem</Nav.Link>
+                        <Nav.Link href="/#ProblemID" style={{marginTop:"7px",marginLeft:"10px"}}>Solution</Nav.Link>
                         <Nav.Link href="/#RoadmapID" style={{marginTop:"7px",marginLeft:"10px"}}>Roadmap</Nav.Link>
                         <Nav.Link href="/#TeamID" style={{marginTop:"7px",marginLeft:"10px"}}>Team</Nav.Link>
                         <Nav.Link href="/#FAQID" style={{marginTop:"7px",marginLeft:"10px"}}>FAQs</Nav.Link>
@@ -112,9 +111,9 @@ export default function CNavbar() {
                         <Nav.Link href="/#FeaturedInID" className="NavContent">FeaturedIn</Nav.Link>
                         <Nav.Link href="/#BackedByID" className="NavContent">BackedBy</Nav.Link>
                         <Nav.Link href="/#FeaturesID" className="NavContent">Features</Nav.Link>
-                        <Nav.Link href="/#TokenomicsID" className="NavContent">Tokenomics</Nav.Link>
-                        <Nav.Link href="/#TokenomicsID" className="NavContent">Problem</Nav.Link>
-                        <Nav.Link href="/#TokenomicsID" className="NavContent">Solution</Nav.Link>
+                        <Nav.Link href="/#TokenID" className="NavContent">Tokenomics</Nav.Link>
+                        <Nav.Link href="/#ProblemID" className="NavContent">Problem</Nav.Link>
+                        <Nav.Link href="/#ProblemID" className="NavContent">Solution</Nav.Link>
                         <Nav.Link href="/#RoadmapID" className="NavContent">Roadmap</Nav.Link>
                         <Nav.Link href="/#TeamID" className="NavContent">Team</Nav.Link>
                         <Nav.Link href="/#FAQID" className="NavContent">FAQs</Nav.Link>

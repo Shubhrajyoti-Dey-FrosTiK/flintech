@@ -20,7 +20,7 @@ export default function Features() {
                 <h1 style={{"fontWeight":"600","marginBottom":"30px"}}>
                 <MovingText
                     type="fadeIn"
-                    duration="4000ms"
+                    duration="3000ms"
                     delay="0s"
                     direction="normal"
                     timing="ease"
@@ -31,8 +31,8 @@ export default function Features() {
                 </h1>
             </div>
             <MovingText
-                    type="jelly"
-                    duration="2000ms"
+                    type="fadeIn"
+                    duration="1000ms"
                     delay="0s"
                     direction="normal"
                     timing="ease"
