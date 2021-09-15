@@ -11,6 +11,7 @@ export default function BackedBy() {
     })
     return (
         <div className="BackedBy" id="BackedByID">
+            <div style={{display:"block",margin:"auto",maxWidth:"1100px",paddingTop:"30px",paddingBottom:"30px"}}>
             <div>
                 <h1 style={{"fontWeight":"600",marginBottom:"25px"}}>
                 <MovingText
@@ -43,6 +44,7 @@ export default function BackedBy() {
                     <div className="BackedByContent"><p>Investor Name</p></div>
                 </div>
             </MovingText>
+            </div>
         </div>
     )
 }
