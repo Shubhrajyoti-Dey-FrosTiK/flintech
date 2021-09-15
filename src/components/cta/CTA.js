@@ -10,6 +10,7 @@ export default function CTA() {
     })
     return (
         <div id="CTAID" className="CTAContainer">
+        <div style={{paddingLeft:"5px",paddingRight:"5px"}}>
             {/* <img src={img1} className="CTAImg"/> */}
             <div data-aos="fade-up" className="CTA">
             <div>
@@ -39,6 +40,7 @@ export default function CTA() {
                 <div id="CTAButton"><p>Fund Top Movies</p></div>
                 </div>
             </MovingText>
+        </div>
         </div>
         </div>
     )

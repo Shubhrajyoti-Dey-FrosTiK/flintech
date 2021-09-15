@@ -8,6 +8,8 @@ export default function Team() {
         AOS.init()
     })
     return (
+        <div style={{display:"block",margin:"auto",maxWidth:"1100px"}}>
+        <div style={{paddingLeft:"5px",paddingRight:"5px"}}>
         <div data-aos="fadeIn" className="Team" id="TeamID">
         <div style={{marginBottom:"30px"}}>
             <h1><b>Team</b></h1>
@@ -29,6 +31,8 @@ export default function Team() {
                 <p>In Blockchain Since 2014</p>
             </div>
         </div>
+    </div>
+    </div>
     </div>
     )
 }

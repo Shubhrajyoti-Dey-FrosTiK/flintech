@@ -29,7 +29,8 @@ export default function Roadmap() {
         AOS.init()
     })
     return (
-        <div>
+        <div style={{marginTop:"30px"}}>
+        <div style={{paddingLeft:"5px",paddingRight:"5px"}}>
         <div id="RoadmapID" style={{display:"block",margin:"auto",maxWidth:"1100px"}}>
         <div data-aos="fadeIn" id="desktopRoadmap">
             <div style={{textAlign:"center",marginBottom:"20px"}}>
@@ -178,6 +179,7 @@ export default function Roadmap() {
             </TimelineItem>
         </Timeline>
         </div>
+     </div>
      </div>
      </div>
     )

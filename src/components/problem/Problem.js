@@ -9,14 +9,15 @@ export default function Problem() {
         AOS.init()
     })
     return (
-        <div style={{display:"block",margin:"auto",maxWidth:"1100px"}}>
+        <div style={{display:"block",margin:"auto",maxWidth:"1100px"}} id="ProblemID">
+        <div style={{paddingLeft:"5px",paddingRight:"5px"}}>   
         <div className="Arranger" data-aos="fadeIn">
              <div data-aos="fade-up" className="Problem">
                 <div>
                     <h1 style={{"fontWeight":"600"}}>
                     <MovingText
                         type="fadeIn"
-                        duration="8000ms"
+                        duration="3000ms"
                         delay="0s"
                         direction="normal"
                         timing="ease"
@@ -29,7 +30,7 @@ export default function Problem() {
                 
                 <MovingText
                         type="fadeIn"
-                        duration="8000ms"
+                        duration="4000ms"
                         delay="0s"
                         direction="normal"
                         timing="ease"
@@ -49,7 +50,7 @@ export default function Problem() {
                     <h1 style={{"fontWeight":"600"}}>
                     <MovingText
                         type="fadeIn"
-                        duration="8000ms"
+                        duration="3000ms"
                         delay="0s"
                         direction="normal"
                         timing="ease"
@@ -62,7 +63,7 @@ export default function Problem() {
                 
                 <MovingText
                         type="fadeIn"
-                        duration="8000ms"
+                        duration="4000ms"
                         delay="0s"
                         direction="normal"
                         timing="ease"
@@ -78,6 +79,7 @@ export default function Problem() {
                     </div>
                 </MovingText>
             </div>
+        </div>
         </div>
         </div>
     )

@@ -10,8 +10,9 @@ export default function Tokenomics() {
 
     return (
         <>
+        <div style={{paddingLeft:"5px",paddingRight:"5px"}}>
         <h1 style={{marginTop:"30px",marginBottom:"30px",fontWeight:"600",textAlign:"center"}}>Tokenomics</h1>
-        <div data-aos="fadeIn" className="Tokenomics" id="TokenomicsID">
+        <div data-aos="fadeIn" className="Tokenomics" id="TokenID">
             
             <div className="TokenomicsContent">
                 <div id="TokenomicsTemp" style={{display:"flex",justifyContent:"center"}}>
@@ -33,7 +34,7 @@ export default function Tokenomics() {
                         />
                 </div>
             </div>
-                <div data-aos="fadeIn" className="TokenomicsKey">
+                <div className="TokenomicsKey">
                         <div className="TokenomicsKeyValues">
                             <div className="TokenomicsColor" style={{backgroundColor:"rgb(72, 22, 189)"}}></div>
                             <div style={{marginLeft:"10px"}}><p>Team and advisor</p></div>
@@ -72,6 +73,7 @@ export default function Tokenomics() {
                 <div data-aos="fadeIn">
                     <h5>Total tokens : 80,000,000</h5>
                 </div>
+        </div>
         </div>
     </>
     )

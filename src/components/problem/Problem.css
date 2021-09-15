@@ -1,5 +1,5 @@
 .Problem{
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     margin-top: 45px;
     background-color: black;
     color:white ;
@@ -15,7 +15,7 @@
 .Solution{
     background-color: #f7c114 !important;
     color: black !important;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     margin-top: 45px;
     background-color: black;
     color:white ;

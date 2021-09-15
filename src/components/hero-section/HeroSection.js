@@ -10,7 +10,8 @@ export default function HeroSection() {
     })
     return (
         <>
-        <div style={{display:"flex",flexDirection:"column",justifyContent:"center"}} data-aos="fade-in" className="HeroOutline">
+        <div id="HeroSectionID" style={{display:"flex",flexDirection:"column",justifyContent:"center"}} data-aos="fade-in" className="HeroOutline">
+        <div style={{paddingLeft:"5px",paddingRight:"5px"}}>
             <div style={{display:"flex",justifyContent:"center"}}>            
                 <div id="HeroID">
                     <div data-aos="fade-in" className="Hero">
@@ -41,6 +42,7 @@ export default function HeroSection() {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         </>
     )

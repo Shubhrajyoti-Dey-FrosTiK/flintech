@@ -11,12 +11,13 @@ export default function BackedBy() {
     })
     return (
         <div className="BackedBy" id="BackedByID">
+            <div style={{paddingLeft:"5px",paddingRight:"5px"}}>
             <div style={{display:"block",margin:"auto",maxWidth:"1100px",paddingTop:"30px",paddingBottom:"30px"}}>
             <div>
                 <h1 style={{"fontWeight":"600",marginBottom:"25px"}}>
                 <MovingText
                     type="fadeIn"
-                    duration="8000ms"
+                    duration="3000ms"
                     delay="0s"
                     direction="normal"
                     timing="ease"
@@ -29,7 +30,7 @@ export default function BackedBy() {
             
             <MovingText
                     type="fadeIn"
-                    duration="7000ms"
+                    duration="4000ms"
                     delay="0s"
                     direction="normal"
                     timing="ease"
@@ -45,6 +46,7 @@ export default function BackedBy() {
                 </div>
             </MovingText>
             </div>
+        </div>
         </div>
     )
 }

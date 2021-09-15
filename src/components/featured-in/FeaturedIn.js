@@ -12,11 +12,12 @@ export default function FeaturedIn() {
     })
     return (
         <div data-aos="fade-in" className="FeaturedIn" id="FeaturedInID">
+            <div style={{paddingLeft:"5px",paddingRight:"5px"}}>
             <div>
                 <h1 style={{"fontWeight":"600"}}>
                 <MovingText
                     type="fadeIn"
-                    duration="4000ms"
+                    duration="2000ms"
                     delay="0s"
                     direction="normal"
                     timing="ease"
@@ -29,7 +30,7 @@ export default function FeaturedIn() {
             
             <MovingText
                     type="fadeIn"
-                    duration="8000ms"
+                    duration="3000ms"
                     delay="0s"
                     direction="normal"
                     timing="ease"
@@ -40,6 +41,7 @@ export default function FeaturedIn() {
                 <div><img src={img2} className="FeatureImg" alt=""/></div>
                 </div>
             </MovingText>
+            </div>
         </div>
     )
 }
