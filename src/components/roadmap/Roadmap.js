@@ -29,7 +29,7 @@ export default function Roadmap() {
         AOS.init()
     })
     return (
-        <div style={{marginTop:"30px"}}>
+        <div style={{marginTop:"30px",marginBottom:"30px"}}>
         <div style={{paddingLeft:"5px",paddingRight:"5px"}}>
         <div id="RoadmapID" style={{display:"block",margin:"auto",maxWidth:"1100px"}}>
         <div data-aos="fadeIn" id="desktopRoadmap">
@@ -40,7 +40,7 @@ export default function Roadmap() {
             <TimelineItem>
                 <TimelineOppositeContent>
                 <Typography color="textSecondary">
-                    <h3><b>Q4 2021</b></h3>
+                    <h4><b>Q4 2021</b></h4>
                 </Typography>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
@@ -64,7 +64,7 @@ export default function Roadmap() {
             <TimelineItem>
                 <TimelineOppositeContent>
                 <Typography color="textSecondary">
-                    <h3><b>Q1 2022</b></h3>
+                    <h4><b>Q1 2022</b></h4>
                 </Typography>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
@@ -87,7 +87,7 @@ export default function Roadmap() {
             <TimelineItem>
                 <TimelineOppositeContent>
                 <Typography color="textSecondary">
-                    <h3><b>Q2 2022</b></h3>
+                    <h4><b>Q2 2022</b></h4>
                 </Typography>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
@@ -124,7 +124,7 @@ export default function Roadmap() {
                 <TimelineContent>
                 <Paper className={classes.paper}>
                     <Typography color="textSecondary">
-                        <h3><b>Q4 2021</b></h3>
+                        <h4><b>Q4 2021</b></h4>
                     </Typography>   
                     <Typography>
                         <p>Fund Raising</p>
@@ -146,7 +146,7 @@ export default function Roadmap() {
                 <TimelineContent>
                 <Paper className={classes.paper}> 
                     <Typography color="textSecondary">
-                        <h3><b>Q1 2022</b></h3>
+                        <h4><b>Q1 2022</b></h4>
                     </Typography>
                     <Typography>
                         <p>Plan & Systematically Launch A Media Season on “Bitcoin” Initial Genre Would be </p>
@@ -167,7 +167,7 @@ export default function Roadmap() {
                 <TimelineContent>
                 <Paper className={classes.paper}> 
                     <Typography color="textSecondary">
-                        <h3><b>Q2 2022</b></h3>
+                        <h4><b>Q2 2022</b></h4>
                     </Typography>
                     <Typography>
                         <p>Complete Platform Launch</p>

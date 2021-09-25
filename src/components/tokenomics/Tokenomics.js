@@ -71,7 +71,7 @@ export default function Tokenomics() {
             </div>
              </div>
                 <div data-aos="fadeIn">
-                    <h5>Total tokens : 80,000,000</h5>
+                    <h4>Total tokens : 80,000,000</h4>
                 </div>
         </div>
         </div>

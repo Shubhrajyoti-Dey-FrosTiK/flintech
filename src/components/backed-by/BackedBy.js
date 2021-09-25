@@ -37,12 +37,8 @@ export default function BackedBy() {
                     iteration="1"
                     fillMode="none">
                 <div className="BackedByList">
-                    <div className="BackedByContent"><p>Launch Pad Name </p></div>
-                    <div className="BackedByContent"><p>Investor Name</p></div>
-                </div>
-                <div className="BackedByList">
-                    <div className="BackedByContent"><p>Sample Name </p></div>
-                    <div className="BackedByContent"><p>Investor Name</p></div>
+                    <div className="BackedByContent"><h4>Launch Pad Name </h4></div>
+                    <div className="BackedByContent"><h4>Investor Name</h4></div>
                 </div>
             </MovingText>
             </div>

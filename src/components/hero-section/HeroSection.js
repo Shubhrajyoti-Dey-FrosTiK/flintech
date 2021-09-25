@@ -36,7 +36,8 @@ export default function HeroSection() {
                             timing="ease"
                             iteration="1"
                             fillMode="none">
-                                Invest in your favorite creators, get unique NFTs & earn passive royalty from their movie. Who will win? centralized media companies OR thousands of individual creators?
+                                <h4>Invest in your favorite creators, get unique NFTs & earn passive royalty from their movie. Who will win? centralized media companies OR thousands of individual creators?</h4>
+                                
                             </MovingText>
                         </h4>
                     </div>

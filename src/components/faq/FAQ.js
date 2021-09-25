@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './FAQ.css'
 import { Accordion } from 'react-bootstrap';
+import FAQComponent from './FAQComponent';
 
 export default function FAQ() {
     useEffect(()=>{
@@ -33,36 +34,9 @@ export default function FAQ() {
                     <h3 className="FAQQuestions">Why Should I Invest Into It?</h3>
                     <h5>As we onboard more creators,<br></br>NFTFLIXPRO is aiming to become Netflix of Decentralized World,<br></br>Where we value creators & audience over profits.</h5>
                 </div> */}
-                <div  className="faqs" style={{paddingBottom:"20px"}}>
-                    <Accordion className="faqs" defaultActiveKey="0" flush>
-                    <Accordion.Item eventKey="0">
-                        <Accordion.Header className="faqs">What is NFTFLIXPRO ?</Accordion.Header>
-                        <Accordion.Body>
-                        NFTFLIXPRO is a platform to empower creators, at same time allows fans to earn passive Income by supporting their creators.
-                        </Accordion.Body>
-                    </Accordion.Item>
-                    </Accordion>
-                </div>
-                <div style={{paddingBottom:"20px"}}>
-                    <Accordion className="faqs" defaultActiveKey="0" flush>
-                    <Accordion.Item eventKey="0">
-                        <Accordion.Header>What is use of NFTFLIXPRO Token?</Accordion.Header>
-                        <Accordion.Body>
-                        Participate in Film Fundings, <br></br>Earn Royalties from Tickets & Licenses Sold.
-                        </Accordion.Body>
-                    </Accordion.Item>
-                    </Accordion>
-                </div>
-                <div style={{paddingBottom:"20px"}}>
-                    <Accordion className="faqs" defaultActiveKey="0" flush>
-                    <Accordion.Item eventKey="0">
-                        <Accordion.Header>Why Should I Invest Into It?</Accordion.Header>
-                        <Accordion.Body>
-                        As we onboard more creators,<br></br>NFTFLIXPRO is aiming to become Netflix of Decentralized World,<br></br>Where we value creators & audience over profits.
-                        </Accordion.Body>
-                    </Accordion.Item>
-                    </Accordion>
-                </div>
+                <FAQComponent title="What is NFTFLIXPRO ?" body="NFTFLIXPRO is a platform to empower creators, at same time allows fans to earn passive Income by supporting their creators."/>
+                <FAQComponent title="What is use of NFTFLIXPRO Token?" body="Participate in Film Fundings, <br></br>Earn Royalties from Tickets & Licenses Sold."/>
+                <FAQComponent title="Why Should I Invest Into It?" body="As we onboard more creators,<br></br>NFTFLIXPRO is aiming to become Netflix of Decentralized World,<br></br>Where we value creators & audience over profits."/>
             </div>
             
             <div>
