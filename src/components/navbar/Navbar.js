@@ -115,7 +115,7 @@ export default function CNavbar() {
                         <Nav.Link href="/#TeamID" className="NavContent">Team</Nav.Link>
                         <Nav.Link href="/#FAQID" className="NavContent">FAQs</Nav.Link> */}
                         <Nav.Link href="*" style={{marginLeft:"-5px"}}>
-                        <Button variant="outline-light" className="NavButton1">WhitePaper</Button>                           
+                        <Button variant="outline-light" className="NavButton1">Download WhitePaper</Button>                           
                         </Nav.Link>
                         {/* <Nav.Link href="/#CTAID" style={{marginLeft:"-12px"}}>
                         <Button variant="light" className="NavButton2">Fund Top Movies</Button>                           
