@@ -13,7 +13,9 @@ body {
 }
 
 body{
-  font-family: 'Hahmlet', serif !important;
+  /* font-family: Futura,Trebuchet MS,Arial,sans-serif !important; */
+  font-family: 'Futura';
+  src: local('Futura'), url(./fonts/futura/Futura\ Extra\ Black\ font.ttf) format('opentype');
 }
 
 body::-webkit-scrollbar {
