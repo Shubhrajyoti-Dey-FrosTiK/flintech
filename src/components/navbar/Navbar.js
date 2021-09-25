@@ -2,6 +2,7 @@ import React,{ useEffect } from 'react'
 import { Navbar,Button,Nav } from 'react-bootstrap'
 import Headroom from "headroom.js";
 import './Navbar.css'
+
 export default function CNavbar() {
     useEffect(() => {
         var myElement = document.getElementsByClassName("ProjectNav")[0];
@@ -67,17 +68,17 @@ export default function CNavbar() {
     }
     return (
     <>
-        <Navbar id="MobileNav" className=" ProjectNav transperant-color-nav navbar-dark" expand="xxl" collapseOnSelect fixed="top" style={{justifyContent:"space-between",marginLeft:"15px",marginRight:"15px"}}>
+        <Navbar id="MobileNav" className=" ProjectNav transperant-color-nav navbar-dark" collapseOnSelect fixed="top" style={{justifyContent:"space-between",minWidth:"80%",paddingLeft:"5px",paddingRight:"5px"}}>
             <div style={{"paddingLeft":"15px"}}>
                 <Navbar.Brand href="#">
                         NFTFLIXPRO
                 </Navbar.Brand>
             </div>
-            <div>
+            {/* <div>
                 <Navbar.Toggle onClick={TransperancyHandler}/>
-            </div>
+            </div> */}
                 {/* <div> */}
-                <Navbar.Collapse>
+                {/* <Navbar.Collapse> */}
                     <Nav>
                         {/* <Nav.Link href="/#FeaturedInID" style={{marginTop:"7px",marginLeft:"10px"}}>Featured In</Nav.Link>
                         <Nav.Link href="/#BackedByID" style={{marginTop:"7px",marginLeft:"10px"}}>Backed By</Nav.Link>
@@ -95,11 +96,11 @@ export default function CNavbar() {
                         <Button variant="light" className="NavButton2">Fund Top Movies</Button>                           
                         </Nav.Link> */}
                     </Nav>
-                </Navbar.Collapse>
+                {/* </Navbar.Collapse> */}
         </Navbar>
 
-        <Navbar id="DesktopNav" className="ProjectNav transperant-color-nav navbar-dark" expand="lg" collapseOnSelect fixed="top" style={{flexDirection:"column",justifyContent:"center"}}>
-            <div style={{display:"flex",minWidth:"1100px", justifyContent:"space-between"}}>
+        <Navbar id="DesktopNav" className="ProjectNav transperant-color-nav navbar-dark" expand="true" collapseOnSelect fixed="top" style={{flexDirection:"column",justifyContent:"center"}}>
+            <div style={{display:"flex",minWidth:"70%", justifyContent:"space-between"}}>
             <div style={{"paddingLeft":"15px","paddingTop":"12px",paddingRight:"2px"}}>
                 <Navbar.Brand href="#">NFTFLIXPRO</Navbar.Brand>
             </div>
