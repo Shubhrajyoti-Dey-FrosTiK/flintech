@@ -48,7 +48,7 @@ export default function Team() {
                     <img src={linkedin} className="TeamIcon" alt=""></img>
                 </div>
             </div>
-        </div> alt=""
+        </div>
     </div>
     </div>
     </div>

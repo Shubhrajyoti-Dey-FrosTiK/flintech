@@ -8,6 +8,7 @@ import img1 from '../../img/Features1.jpg'
 import img2 from '../../img/Features2.jpg'
 import img3 from '../../img/Features3.jpg'
 import img4 from '../../img/Features4.jpg'
+// import CardComponent from './CardComponent';
 
 export default function Features() {
     useEffect(()=>{
@@ -91,9 +92,7 @@ export default function Features() {
         <div id="FeatureID" className="FeatureContainer">
             <div data-aos="fade-up" className="Features">
             <div>
-                <h1 style={{"fontWeight":"600"}}>
-                        <img src={img1} className="FeaturesImg" alt=""></img>
-                </h1>
+                <img src={img1} className="FeaturesImg" alt=""></img>
             </div>
         </div>
             <div data-aos="fade-up" className="Features">
@@ -101,9 +100,9 @@ export default function Features() {
                 <h1 style={{"fontWeight":"600"}}>
                 Auto Staking
                 </h1>
-                <p style={{textOverflow:"-moz-initial"}}>
+                <h4 style={{textOverflow:"-moz-initial"}}>
                 Invest in your favorite creators and earn passive rewards for life as royalty from their film sales.
-                </p>
+                </h4>
             </div>
         </div>
         </div>
@@ -121,9 +120,9 @@ export default function Features() {
                 <h1 style={{"fontWeight":"600"}}>
                 Deflationary
                 </h1>
-                <p style={{textOverflow:"-moz-initial"}}>
+                <h4 style={{textOverflow:"-moz-initial"}}>
                 2% fees is added to each transaction and 1% fees is distributed equally to all token holders. 1% fee is burned forever which Increases value of each token.
-                </p>
+                </h4>
             </div>
         </div>
         </div>
@@ -141,9 +140,9 @@ export default function Features() {
                 <h1 style={{"fontWeight":"600"}}>
                 Earn Royalties
                 </h1>
-                <p style={{textOverflow:"-moz-initial"}}>
+                <h4 style={{textOverflow:"-moz-initial"}}>
                 Earn life time royalties on your favorite creator calculated based on your weighted average. everyone wins together!
-                </p>
+                </h4>
             </div>
         </div>
         </div>
@@ -161,13 +160,14 @@ export default function Features() {
                 <h1 style={{"fontWeight":"600"}}>
                 Film Launchpad
                 </h1>
-                <p style={{textOverflow:"-moz-initial"}}>
+                <h4 style={{textOverflow:"-moz-initial"}}>
                 Our exclusive launchpad, allows creators to launch films & earn income by earning royalties for lifetime.
-                </p>
+                </h4>
             </div>
         </div>
         </div>
 
+        {/* <CardComponent img="../../img/Features4.jpg"/> */}
 
         </div>
         </div>
