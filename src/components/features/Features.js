@@ -14,9 +14,8 @@ export default function Features() {
         AOS.init()
     })
     return (
-        <div data-aos="fade-in" className="Features" id="FeaturesID">
-            <div>
-            <div>
+        <div data-aos="fade-in" id="FeaturesID">
+            <div className="FeatureHeading">
                 <h1 style={{"fontWeight":"600","marginBottom":"30px"}}>
                 <MovingText
                     type="fadeIn"
@@ -30,6 +29,9 @@ export default function Features() {
                     </MovingText>
                 </h1>
             </div>
+        <div className="FeaturesBox" >
+            {/* <div> */}
+            {/*
             <MovingText
                     type="fadeIn"
                     duration="1000ms"
@@ -85,7 +87,89 @@ export default function Features() {
                     </div>
                 </div>
             </MovingText>
+            </div> */}
+        <div id="FeatureID" className="FeatureContainer">
+            <div data-aos="fade-up" className="Features">
+            <div>
+                <h1 style={{"fontWeight":"600"}}>
+                        <img src={img1} className="FeaturesImg" alt=""></img>
+                </h1>
             </div>
+        </div>
+            <div data-aos="fade-up" className="Features">
+            <div>
+                <h1 style={{"fontWeight":"600"}}>
+                Auto Staking
+                </h1>
+                <p style={{textOverflow:"-moz-initial"}}>
+                Invest in your favorite creators and earn passive rewards for life as royalty from their film sales.
+                </p>
+            </div>
+        </div>
+        </div>
+
+        <div id="FeatureID" className="FeatureContainer">
+            <div data-aos="fade-up" className="Features">
+            <div>
+                <h1 style={{"fontWeight":"600"}}>
+                        <img src={img2} className="FeaturesImg" alt=""></img>
+                </h1>
+            </div>
+        </div>
+            <div data-aos="fade-up" className="Features">
+            <div>
+                <h1 style={{"fontWeight":"600"}}>
+                Deflationary
+                </h1>
+                <p style={{textOverflow:"-moz-initial"}}>
+                2% fees is added to each transaction and 1% fees is distributed equally to all token holders. 1% fee is burned forever which Increases value of each token.
+                </p>
+            </div>
+        </div>
+        </div>
+
+        <div id="FeatureID" className="FeatureContainer">
+            <div data-aos="fade-up" className="Features">
+            <div>
+                <h1 style={{"fontWeight":"600"}}>
+                        <img src={img3} className="FeaturesImg" alt=""></img>
+                </h1>
+            </div>
+        </div>
+            <div data-aos="fade-up" className="Features">
+            <div>
+                <h1 style={{"fontWeight":"600"}}>
+                Earn Royalties
+                </h1>
+                <p style={{textOverflow:"-moz-initial"}}>
+                Earn life time royalties on your favorite creator calculated based on your weighted average. everyone wins together!
+                </p>
+            </div>
+        </div>
+        </div>
+
+        <div id="FeatureID" className="FeatureContainer">
+            <div data-aos="fade-up" className="Features">
+            <div>
+                <h1 style={{"fontWeight":"600"}}>
+                        <img src={img4} className="FeaturesImg" alt=""></img>
+                </h1>
+            </div>
+        </div>
+            <div data-aos="fade-up" className="Features">
+            <div>
+                <h1 style={{"fontWeight":"600"}}>
+                Film Launchpad
+                </h1>
+                <p style={{textOverflow:"-moz-initial"}}>
+                Our exclusive launchpad, allows creators to launch films & earn income by earning royalties for lifetime.
+                </p>
+            </div>
+        </div>
+        </div>
+
+
+        </div>
         </div>
     )
 }
