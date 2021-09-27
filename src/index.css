@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
 body {
   margin: 0;
@@ -14,8 +15,7 @@ body {
 
 body{
   /* font-family: Futura,Trebuchet MS,Arial,sans-serif !important; */
-  font-family: 'Futura';
-  src: local('Futura'), url(./fonts/futura/Futura\ Extra\ Black\ font.ttf) format('opentype');
+  font-family: 'Lato', sans-serif;
 }
 
 body::-webkit-scrollbar {

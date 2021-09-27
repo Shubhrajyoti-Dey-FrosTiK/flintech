@@ -3,6 +3,7 @@ import MovingText from 'react-moving-text'
 import AOS from 'aos';
 import './Problem.css'
 import 'aos/dist/aos.css';
+import listImg from '../../img/tick.png'
 
 export default function Problem() {
     useEffect(()=>{
@@ -37,7 +38,7 @@ export default function Problem() {
                         iteration="1"
                         fillMode="none">
                     <div style={{display:"flex"}}>
-                    <ul>
+                    <ul className="ProblemList">
                         <li>Artists & Film cretors work hard to create their Art.</li>
                         <li>Most of it get’s unotices due to bad marketing,</li>
                         <li>And them not being able to stand up against Industry Moguls.</li>
@@ -70,7 +71,7 @@ export default function Problem() {
                         iteration="1"
                         fillMode="none">
                     <div style={{display:"flex"}}>
-                    <ul>
+                    <ul className="SolutionList">
                         <li>Decentralized Community to support Artists get recognition for their work</li>
                         <li>By getting funded for their films</li>
                         <li>Get Traction & Marketing support from community</li>
